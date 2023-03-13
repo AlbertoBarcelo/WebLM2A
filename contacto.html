@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta -->
+	<meta charset="UTF-8">
+    <!-- Titulo  -->
+	<title>Contacto</title>
+    <!-- Estilos -->
+	<link rel="stylesheet" href="si.css">
+    <!--Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Formulario de contacto</h1>
+			</div>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+        <nav >
+            <ul class="menu"> 
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto </a></li>
+            <li class="dropdown"><a href="parilla.html" data-toggle="dropdown">Parrilla</a>
+                <ul class="dropdown-menu">
+                <li> <a href="mercedes.html">Mercedes</a></li>
+                <li> <a href="aston.html">Aston Martin</a></li>
+                <li> <a href="ferrari.html">Ferrari</a></li>
+            </ul>
+            </li>
+            </ul>
+        </nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+<main>
+    <form>
+        <br>
+        <input type="text" name="nombre" placeholder="Introduce tu nombre">
+        <br>
+        <br>
+        <input type="text" name="nombre" placeholder="Introduce tus apellidos">
+        <br>
+        <br>
+        <input type="email" name="email" placeholder="Introduce tu email" >
+        <br>
+        <br>
+        <input type="number" name="number" placeholder="Edad">
+        <br>
+        <br>
+        <select name="poblacion" >
+            <option value="0"> Desde donde nos ves </option>
+            <option value="0">Escoja una de estas opciones</option>
+            <option value="Andalucia">Andalucia</option>
+            <option value="Aragon">Aragon</option>
+            <option value="Principado de Asturias">Principado de Asturias</option>
+            <option value="Islas Baleares">Islas Baleares</option>
+            <option value="Pais Vasco">Pais Vasco</option>
+            <option value="Canarias">Canarias</option>
+            <option value="Cantabria">Cantabria</option>
+            <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+            <option value="Castilla y Leon">Castilla y Leon</option>
+            <option value="Cataluña">Cataluña</option>
+            <option value="Extremadura">Extremadura</option>
+            <option value="Galicia">Galicia</option>
+            <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+            <option value="Region de Murcia">Region de Murcia</option>
+            <option value="Comunidad Foral de Navarra">Comunidad Foral de Navarra</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+            <option value="Ceuta">Ceuta</option>
+            <option value="Melilla">Melilla</option> 
+        </select>
+        <br>
+        
+        <br>
+        <p>Condicion de la pista</p>
+        <input type="radio" name="tipo" style="color: white;">Mojado
+        <input type="radio" name="tipo" style="color: white;">Seco
+        <br>
+        <br>
+    <input type="reset">
+    <input type="submit" value="Enviar">
+    </form>
+
+</main> 
+</body>
+</html>
+
